@@ -1,0 +1,928 @@
+EC327: Introduction to Software Engineering
+Fall 2015
+Programming Assignment 3
+GameObject constructed
+Dock constructed
+GameObject constructed
+Dock constructed
+GameObject constructed
+Dock constructed
+GameObject constructed
+Port constructed
+GameObject constructed
+Port constructed
+GameObject constructed
+Port constructed
+GameObject constructed
+Port constructed
+GameObject constructed
+Sailor constructed
+GameObject constructed
+Sailor constructed
+GameObject constructed
+Sailor constructed
+GameObject constructed
+Sailor constructed
+GameObject constructed
+Sailor constructed
+GameObject constructed
+Model default constructed
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is going to hide at Dock 1
+Merchant status: M with ID 2 at location (5, 1) is going to hide at Dock 1
+Merchant status: M with ID 3 at location (6, 2) is going to hide at Dock 2
+Pirate status: R with ID 4 at location (6, 3) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Pirate status: R with ID 5 at location (15, 17) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Time: 0
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: GameObject constructed
+Port constructed
+Time: 0
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Invalid input - Duplicate ID
+Time: 0
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Invalid input - Duplicate ID
+Time: 0
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: GameObject constructed
+Sailor constructed
+Time: 0
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Advancing time one tick
+M1: I'm there!
+M2: I'm there!
+M3: I'm there!
+M7: I'm there!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 60
+Merchant status: M with ID 2 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 60
+Merchant status: M with ID 3 at location (6, 2) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 60
+Pirate status: R with ID 4 at location (6, 3) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Pirate status: R with ID 5 at location (15, 17) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Port Status: P with ID 5 at location (10, 20) containing supplies 500
+Merchant status: M with ID 7 at location (1, 8) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 60
+Time: 1
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Advancing time one tick
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is recruiting a merchant with M2.
+Merchant status: M with ID 2 at location (5, 1) is recruiting a merchant with M1.
+Merchant status: M with ID 3 at location (6, 2) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Pirate status: R with ID 4 at location (6, 3) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Pirate status: R with ID 5 at location (15, 17) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Port Status: P with ID 5 at location (10, 20) containing supplies 500
+Merchant status: M with ID 7 at location (1, 8) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Time: 2
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Sailor 1 sailing to Dock 1
+M1: Off to Dock
+Time: 2
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Sailor 2 sailing to Dock 1
+M2: Off to Dock
+Time: 2
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: I cannot plunder.
+Time: 2
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Sailing 7 to (6, 2.5)
+M7: On my way
+Time: 2
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: R4: I will be back for you!
+Time: 2
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Advancing time one tick
+M1: I'm there!
+M1: Starting to unload at a dock
+M2: I'm there!
+M2: Starting to unload at a dock
+M7: I'm there!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is unloading at Dock 1
+Merchant status: M with ID 2 at location (5, 1) is unloading at Dock 1
+Merchant status: M with ID 3 at location (6, 2) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 50
+Pirate status: R with ID 4 at location (6, 3) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Pirate status: R with ID 5 at location (15, 17) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Port Status: P with ID 5 at location (10, 20) containing supplies 500
+Merchant status: M with ID 7 at location (6, 2.5) is anchored. Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Time: 3
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Advancing time one tick
+M1: I am unloading at the dock
+M2: I am unloading at the dock
+Dock Status: d with ID 1 at location (5, 1) has 10 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is docked at Dock 1
+Merchant status: M with ID 2 at location (5, 1) is docked at Dock 1
+Merchant status: M with ID 3 at location (6, 2) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 45
+Pirate status: R with ID 4 at location (6, 3) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Pirate status: R with ID 5 at location (15, 17) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Port Status: P with ID 5 at location (10, 20) containing supplies 500
+Merchant status: M with ID 7 at location (6, 2.5) is anchored. Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Time: 4
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Sailor 1 hiding 1
+M1: Off to hide
+Time: 4
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Sailor 2 hiding 1
+M2: Off to hide
+Time: 4
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Advancing to next event or 5 ticks
+M1: I'm there!
+M2: I'm there!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 60
+Merchant status: M with ID 2 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 60
+Merchant status: M with ID 3 at location (6, 2) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 40
+Pirate status: R with ID 4 at location (6, 3) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Pirate status: R with ID 5 at location (15, 17) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Port Status: P with ID 5 at location (10, 20) containing supplies 500
+Merchant status: M with ID 7 at location (6, 2.5) is anchored. Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Time: 5
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Advancing to next event or 5 ticks
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is recruiting a merchant with M2.
+Merchant status: M with ID 2 at location (5, 1) is recruiting a merchant with M1.
+Merchant status: M with ID 3 at location (6, 2) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 35
+Pirate status: R with ID 4 at location (6, 3) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Pirate status: R with ID 5 at location (15, 17) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Port Status: P with ID 5 at location (10, 20) containing supplies 500
+Merchant status: M with ID 7 at location (6, 2.5) is anchored. Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Time: 6
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Invalid input - Invalid Sailor ID
+Time: 6
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Advancing to next event or 5 ticks
+M1: I found a new recruit!
+GameObject constructed
+Sailor constructed
+M6: I'm there!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 60
+Merchant status: M with ID 2 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Merchant status: M with ID 3 at location (6, 2) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 25
+Pirate status: R with ID 4 at location (6, 3) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Pirate status: R with ID 5 at location (15, 17) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Port Status: P with ID 5 at location (10, 20) containing supplies 500
+Merchant status: M with ID 7 at location (6, 2.5) is anchored. Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Merchant status: M with ID 6 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 60
+Time: 8
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Sailor 1 hiding 1
+M1: Off to hide
+Time: 8
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Sailor 2 hiding 1
+M2: Off to hide
+Time: 8
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Sailing 3 to (6, 2.5)
+M3: On my way
+Time: 8
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Advancing to next event or 5 ticks
+M1: I'm there!
+M2: I'm there!
+M3: I'm there!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 60
+Merchant status: M with ID 2 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Merchant status: M with ID 3 at location (6, 2.5) is anchored. Has a size of: 10, cargo of: 0, hold of: 100, and health of: 25
+Pirate status: R with ID 4 at location (6, 3) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Pirate status: R with ID 5 at location (15, 17) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Port Status: P with ID 5 at location (10, 20) containing supplies 500
+Merchant status: M with ID 7 at location (6, 2.5) is anchored. Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Merchant status: M with ID 6 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Time: 9
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: R4: Arrrggghhhh!
+Time: 9
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Advancing time one tick
+Ouch!
+R4: Arrghh matey!
+The Kraken is coming!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Merchant status: M with ID 2 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 50
+Merchant status: M with ID 3 at location (6, 2.5) is anchored. Has a size of: 10, cargo of: 0, hold of: 100, and health of: 23
+Pirate status: R with ID 4 at location (6, 3) Currently attacking 3
+Pirate status: R with ID 5 at location (15, 17) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Port Status: P with ID 5 at location (10, 20) containing supplies 500
+Merchant status: M with ID 7 at location (6, 2.5) is anchored. Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Merchant status: M with ID 6 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 50
+Time: 10
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Sailor 3 hiding 2
+M3: Off to hide
+Time: 10
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Advancing time one tick
+M3: I'm there!
+Ouch!
+R4: Arrghh matey!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 50
+Merchant status: M with ID 2 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 45
+Merchant status: M with ID 3 at location (6, 2) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 21
+Pirate status: R with ID 4 at location (6, 3) Currently attacking 3
+Pirate status: R with ID 5 at location (15, 17) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Port Status: P with ID 5 at location (10, 20) containing supplies 500
+Merchant status: M with ID 7 at location (6, 2.5) is anchored. Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Merchant status: M with ID 6 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 45
+Time: 11
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Advancing time one tick
+Ouch!
+R4: Arrghh matey!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 45
+Merchant status: M with ID 2 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 40
+Merchant status: M with ID 3 at location (6, 2) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 14
+Pirate status: R with ID 4 at location (6, 3) Currently attacking 3
+Pirate status: R with ID 5 at location (15, 17) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Port Status: P with ID 5 at location (10, 20) containing supplies 500
+Merchant status: M with ID 7 at location (6, 2.5) is anchored. Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Merchant status: M with ID 6 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 40
+Time: 12
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: GameObject constructed
+Sailor constructed
+Time: 12
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . R8. . P2
+  0   4   8   12  16  20  
+Enter command: R8: I will be back for you!
+Time: 12
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . R8. . P2
+  0   4   8   12  16  20  
+Enter command: Sailing 2 to (10, 12.5)
+M2: On my way
+Time: 12
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . R8. . P2
+  0   4   8   12  16  20  
+Enter command: Advancing time one tick
+M2: I'm there!
+Ouch!
+R4: Arrghh matey!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is recruiting a merchant with M6.
+Merchant status: M with ID 2 at location (10, 12.5) is anchored. Has a size of: 10, cargo of: 0, hold of: 100, and health of: 40
+Merchant status: M with ID 3 at location (6, 2) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 7
+Pirate status: R with ID 4 at location (6, 3) Currently attacking 3
+Pirate status: R with ID 5 at location (15, 17) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Port Status: P with ID 5 at location (10, 20) containing supplies 500
+Merchant status: M with ID 7 at location (6, 2.5) is anchored. Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Merchant status: M with ID 6 at location (5, 1) is recruiting a merchant with M1.
+Pirate status: R with ID 8 at location (14, 0) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Time: 13
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . M2. . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . R8. . P2
+  0   4   8   12  16  20  
+Enter command: Advancing to next event or 5 ticks
+Oh no, now I'm in Davy Jones' Locker!
+R4: I triumph!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is recruiting a merchant with M6.
+Merchant status: M with ID 2 at location (10, 12.5) is anchored. Has a size of: 10, cargo of: 0, hold of: 100, and health of: 40
+Pirate status: R with ID 4 at location (6, 3) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 30
+Pirate status: R with ID 5 at location (15, 17) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Port Status: P with ID 5 at location (10, 20) containing supplies 500
+Merchant status: M with ID 7 at location (6, 2.5) is anchored. Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Merchant status: M with ID 6 at location (5, 1) is recruiting a merchant with M1.
+Pirate status: R with ID 8 at location (14, 0) is anchored. Has a size of: 15, cargo of: 0, hold of: 100, and health of: 25
+Time: 14
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . M2. . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . R8. . P2
+  0   4   8   12  16  20  
+Enter command: R8: I will be back for you!
+Time: 14
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . R5. . . 
+  . . . . . . . . . . . 
+12. . . . . M2. . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . R8. . P2
+  0   4   8   12  16  20  
+Enter command: Advancing to next event or 5 ticks
+The Kraken is upon us!
+----------The Kraken Claimed----------
+(1) - M2
+(2) - R4
+(3) - R5
+(4) - M7
+(5) - R8
+-----------------------------------------
+M6: I found a new recruit!
+GameObject constructed
+Sailor constructed
+M2: I'm there!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 40
+Port Status: P with ID 5 at location (10, 20) containing supplies 500
+Merchant status: M with ID 6 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 40
+Merchant status: M with ID 2 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 60
+Time: 15
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Advancing time one tick
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 35
+Port Status: P with ID 5 at location (10, 20) containing supplies 500
+Merchant status: M with ID 6 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 35
+Merchant status: M with ID 2 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Time: 16
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Sailing 2 to (10, 10)
+M2: On my way
+Time: 16
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Advancing time one tick
+M2: I'm there!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Merchant status: M with ID 1 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 30
+Port Status: P with ID 5 at location (10, 20) containing supplies 500
+Merchant status: M with ID 6 at location (5, 1) is anchored (and hiding). Has a size of: 10, cargo of: 0, hold of: 100, and health of: 30
+Merchant status: M with ID 2 at location (10, 10) is anchored. Has a size of: 10, cargo of: 0, hold of: 100, and health of: 55
+Time: 17
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . M2. . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: Terminating Program
+Time: 17
+20P1. . . . P5. . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . M2. . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+View destructed.
+----------The History of Kraken's Wrath----------
+(1) - M2
+(2) - R4
+(3) - R5
+(4) - M7
+(5) - R8
+----------------------------------------------------
+Sailor destructed.
+GameObject destructed
+Sailor destructed.
+GameObject destructed
+Sailor destructed.
+GameObject destructed
+Sailor destructed.
+GameObject destructed
+Sailor destructed.
+GameObject destructed
+Dock destructed.
+GameObject destructed
+Dock destructed.
+GameObject destructed
+Dock destructed.
+GameObject destructed
+Port destructed.
+GameObject destructed
+Port destructed.
+GameObject destructed
+Port destructed.
+GameObject destructed
+Port destructed.
+GameObject destructed
+Sailor destructed.
+GameObject destructed
+Sailor destructed.
+GameObject destructed
+Port destructed.
+GameObject destructed
+Sailor destructed.
+GameObject destructed
+Sailor destructed.
+GameObject destructed
+Model destructed
+Kraken destructed
+GameObject destructed

@@ -1,0 +1,28 @@
+------------Sample 1 Begin----------------
+Enter the number of entries: 3
+Entry 0 is: 3
+Entry 1 is: 7
+Entry 2 is: 20
+*****
+Original array is: 3 7 20 and the address of the zero element is: 0x7fff5f6b6b30
+Final array is: 3 7 20 20 7 3 176400 and the address of the zero element is: 0x7fff5f6b6b30
+------------Sample 1 End------------------
+------------Sample 2 Begin----------------
+Enter the number of entries: 5
+Entry 0 is: 1
+Entry 1 is: 2
+Entry 2 is: 3
+Entry 3 is: 4
+Entry 4 is: 5
+*****
+Original array is: 1 2 3 4 5 and the address of the zero element is: 0x7fff57db0b20
+Final array is: 1 2 3 4 5 5 4 3 2 1 14400 and the address of the zero element is: 0x7fff57db0b20
+------------Sample 2 End------------------
+------------Sample 3 Begin----------------
+Enter the number of entries: 0
+Invalid size entered.
+------------Sample 3 End------------------
+------------Sample 4 Begin----------------
+Enter the number of entries: -3412
+Invalid size entered.
+------------Sample 4 End------------------

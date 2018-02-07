@@ -1,0 +1,86 @@
+----------SAMPLE 1 START---------------------------
+Celsius to Fahrenheit (enter 0)
+Celsius to Kelvin (enter 1)
+Fahrenheit to Celsius (enter 2)
+Fahrenheit to Kelvin (enter 3)
+Kelvin to Celsius (enter 4)
+Kelvin to Fahrenheit (enter 5)
+Conversion type: 0
+Enter the amount in Celsius: 0
+0.000 Celsius is 32.000 Fahrenheit.
+----------SAMPLE 1 END-----------------------------
+----------SAMPLE 2 START---------------------------
+Celsius to Fahrenheit (enter 0)
+Celsius to Kelvin (enter 1)
+Fahrenheit to Celsius (enter 2)
+Fahrenheit to Kelvin (enter 3)
+Kelvin to Celsius (enter 4)
+Kelvin to Fahrenheit (enter 5)
+Conversion type: 4
+Enter the amount in Kelvin: 2784.321
+2784.321 Kelvin is 2511.171 Celsius.
+----------SAMPLE 2 END-----------------------------
+----------SAMPLE 3 START---------------------------
+Celsius to Fahrenheit (enter 0)
+Celsius to Kelvin (enter 1)
+Fahrenheit to Celsius (enter 2)
+Fahrenheit to Kelvin (enter 3)
+Kelvin to Celsius (enter 4)
+Kelvin to Fahrenheit (enter 5)
+Conversion type: -2
+Wrong input, try again: 6
+Wrong input, try again: -1
+Wrong input, try again: 5
+Enter the amount in Kelvin: 34
+34.000 Kelvin is -398.470 Fahrenheit.
+----------SAMPLE 3 END-----------------------------
+----------SAMPLE 4 START---------------------------
+Celsius to Fahrenheit (enter 0)
+Celsius to Kelvin (enter 1)
+Fahrenheit to Celsius (enter 2)
+Fahrenheit to Kelvin (enter 3)
+Kelvin to Celsius (enter 4)
+Kelvin to Fahrenheit (enter 5)
+Conversion type: somethingthatdoesnotmakesense
+Wrong input, try again: may be something like this too
+Wrong input, try again: 5
+Enter the amount in Kelvin: 34.223
+34.223 Kelvin is -398.069 Fahrenheit.
+----------SAMPLE 4 END-----------------------------
+----------SAMPLE 5 START---------------------------
+Celsius to Fahrenheit (enter 0)
+Celsius to Kelvin (enter 1)
+Fahrenheit to Celsius (enter 2)
+Fahrenheit to Kelvin (enter 3)
+Kelvin to Celsius (enter 4)
+Kelvin to Fahrenheit (enter 5)
+Conversion type: 1
+Enter the amount in Celsius: eje
+Wrong input, try again: holacomoestas
+Wrong input, try again: 30394.12
+30394.120 Celsius is 30667.270 Kelvin.
+----------SAMPLE 5 END-----------------------------
+----------SAMPLE 6 START---------------------------
+Celsius to Fahrenheit (enter 0)
+Celsius to Kelvin (enter 1)
+Fahrenheit to Celsius (enter 2)
+Fahrenheit to Kelvin (enter 3)
+Kelvin to Celsius (enter 4)
+Kelvin to Fahrenheit (enter 5)
+Conversion type: fjewjfowejfi
+Wrong input, try again: 3
+Enter the amount in Fahrenheit: f f e f e f #%#%#
+Wrong input, try again: -23.45
+-23.450 Fahrenheit is 242.344 Kelvin.
+----------SAMPLE 6 END-----------------------------
+----------SAMPLE 7 START---------------------------
+Celsius to Fahrenheit (enter 0)
+Celsius to Kelvin (enter 1)
+Fahrenheit to Celsius (enter 2)
+Fahrenheit to Kelvin (enter 3)
+Kelvin to Celsius (enter 4)
+Kelvin to Fahrenheit (enter 5)
+Conversion type: 4
+Enter the amount in Kelvin: 0
+0.000 Kelvin is -273.150 Celsius.
+----------SAMPLE 7 END-----------------------------

@@ -1,0 +1,1263 @@
+EC327: Introduction to Software Engineering
+Fall 2015
+Programming Assignment 3
+GameObject constructed
+Dock constructed
+GameObject constructed
+Dock constructed
+GameObject constructed
+Dock constructed
+GameObject constructed
+Port constructed
+GameObject constructed
+Port constructed
+GameObject constructed
+Port constructed
+GameObject constructed
+Port constructed
+GameObject constructed
+Sailor constructed
+GameObject constructed
+Sailor constructed
+GameObject constructed
+Sailor constructed
+Model default constructed
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (5, 1) is going to hide at Dock 1
+Sailor status: S with ID 2 at location (6, 2) is going to hide at Dock 2
+Sailor status: S with ID 3 at location (1, 8) is going to hide at Dock 3
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 0
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: d 1 1
+Sailor 1 sailing to Dock 1
+S1: Off to Dock
+Time: 0
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: d 2 2 
+Sailor 2 sailing to Dock 2
+S2: Off to Dock
+Time: 0
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: d 3 3
+Sailor 3 sailing to Dock 3
+S3: Off to Dock
+Time: 0
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S1: I’m there!
+S1: Starting to unload at a dock
+S2: I’m there!
+S2: Starting to unload at a dock
+S3: I’m there!
+S3: Starting to unload at a dock
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (5, 1) is unloading at Dock 1
+Sailor status: S with ID 2 at location (6, 2) is unloading at Dock 2
+Sailor status: S with ID 3 at location (1, 8) is unloading at Dock 3
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 1
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S1: I am unloading at the dock
+S2: I am unloading at the dock
+S3: I am unloading at the dock
+Dock Status: d with ID 1 at location (5, 1) has 15 berths
+Dock Status: d with ID 2 at location (6, 2) has 15 berths
+Dock Status: d with ID 3 at location (1, 8) has 15 berths
+Sailor status: S with ID 1 at location (5, 1) is docked at Dock 1
+Sailor status: S with ID 2 at location (6, 2) is docked at Dock 2
+Sailor status: S with ID 3 at location (1, 8) is docked at Dock 3
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 2
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: p 1 1
+Sailor 1 supplying at Port 1 and going to Port 1
+S1: Supplies here I come!
+Time: 2
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: p 2 2
+Sailor 2 supplying at Port 2 and going to Port 2
+S2: Supplies here I come!
+Time: 2
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: p 3 3
+Sailor 3 supplying at Port 3 and going to Port 3
+S3: Supplies here I come!
+Time: 2
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S1: Just keep sailing...
+S2: I’m there!
+S2: Starting to supply at a port
+S3: Just keep sailing...
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (1.90984, 15.6782) is outbound to Port: 1 with a speed of 15
+Sailor status: S with ID 2 at location (20, 1) is supplying at Port 2
+Sailor status: S with ID 3 at location (13.6823, 16.0099) is outbound to Port: 3 with a speed of 15
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 500
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 3
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . S3. . . . 
+  S1. . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . * 
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S1: I’m there!
+S1: Starting to supply at a port
+S2: My new cargo is 50
+S3: I’m there!
+S3: Starting to supply at a port
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (1, 20) is supplying at Port 1
+Sailor status: S with ID 2 at location (20, 1) is supplying at Port 2
+Sailor status: S with ID 3 at location (20, 20) is supplying at Port 3
+Port Status: P with ID 1 at location (1, 20) containing supplies 500
+Port Status: P with ID 2 at location (20, 1) containing supplies 450
+Port Status: P with ID 3 at location (20, 20) containing supplies 500
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 4
+20* . . . . . . . . . * 
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . * 
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S1: My new cargo is 50
+S2: My new cargo is 100
+S3: My new cargo is 50
+S1: My new cargo is 100
+S2: My boat is filled up. Send me to a Dock to unload. Dropping anchor
+S3: My new cargo is 100
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (1, 20) is supplying at Port 1
+Sailor status: S with ID 2 at location (20, 1) is anchored. Has a size of: 15, cargo of: 100, hold of: 100, and health of: 25
+Sailor status: S with ID 3 at location (20, 20) is supplying at Port 3
+Port Status: P with ID 1 at location (1, 20) containing supplies 400
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 6
+20* . . . . . . . . . * 
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . * 
+  0   4   8   12  16  20  
+Enter command: d 1 1
+Sailor 1 sailing to Dock 1
+S1: Off to Dock
+Time: 6
+20* . . . . . . . . . * 
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . * 
+  0   4   8   12  16  20  
+Enter command: d 2 2 
+Sailor 2 sailing to Dock 2
+S2: Off to Dock
+Time: 6
+20* . . . . . . . . . * 
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . * 
+  0   4   8   12  16  20  
+Enter command: d 3 3
+Sailor 3 sailing to Dock 3
+S3: Off to Dock
+Time: 6
+20* . . . . . . . . . * 
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . * 
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S1: Just keep sailing...
+S2: Just keep sailing...
+S3: Just keep sailing...
+S1: Just keep sailing...
+S2: Just keep sailing...
+S3: Just keep sailing...
+S1: Just keep sailing...
+S2: I’m there!
+S2: Starting to unload at a dock
+S3: Just keep sailing...
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (4.09016, 5.32175) is inbound to Dock: 1 with a speed of 5
+Sailor status: S with ID 2 at location (6, 2) is unloading at Dock 2
+Sailor status: S with ID 3 at location (7.31767, 11.9901) is inbound to Dock: 3 with a speed of 5
+Port Status: P with ID 1 at location (1, 20) containing supplies 400
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 9
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . S3. . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . S1. . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S1: I’m there!
+S1: Starting to unload at a dock
+S2: I am unloading at the dock
+S3: Just keep sailing...
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 15 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (5, 1) is unloading at Dock 1
+Sailor status: S with ID 2 at location (6, 2) is docked at Dock 2
+Sailor status: S with ID 3 at location (3.09022, 9.32014) is inbound to Dock: 3 with a speed of 5
+Port Status: P with ID 1 at location (1, 20) containing supplies 400
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 10
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3S3. . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S1: I am unloading at the dock
+S3: I’m there!
+S3: Starting to unload at a dock
+Dock Status: d with ID 1 at location (5, 1) has 15 berths
+Dock Status: d with ID 2 at location (6, 2) has 15 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (5, 1) is docked at Dock 1
+Sailor status: S with ID 2 at location (6, 2) is docked at Dock 2
+Sailor status: S with ID 3 at location (1, 8) is unloading at Dock 3
+Port Status: P with ID 1 at location (1, 20) containing supplies 400
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 11
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: d 2 1
+Sailor 2 sailing to Dock 1
+S2: Off to Dock
+Time: 11
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: d 3 1
+Sailor 3 sailing to Dock 1
+S3: Off to Dock
+Time: 11
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S2: I’m there!
+S2: Starting to unload at a dock
+S3: Just keep sailing...
+Dock Status: d with ID 1 at location (5, 1) has 15 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (5, 1) is docked at Dock 1
+Sailor status: S with ID 2 at location (5, 1) is unloading at Dock 1
+Sailor status: S with ID 3 at location (3.48069, 3.65878) is inbound to Dock: 1 with a speed of 5
+Port Status: P with ID 1 at location (1, 20) containing supplies 400
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 12
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . S3. * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S2: Help! My home dock is full
+S3: I’m there!
+S3: Starting to unload at a dock
+Dock Status: d with ID 1 at location (5, 1) has 15 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (5, 1) is docked at Dock 1
+Sailor status: S with ID 2 at location (5, 1) is in trouble 2
+Sailor status: S with ID 3 at location (5, 1) is unloading at Dock 1
+Port Status: P with ID 1 at location (1, 20) containing supplies 400
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 13
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S3: I am unloading at the dock
+Dock Status: d with ID 1 at location (5, 1) has 0 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (5, 1) is docked at Dock 1
+Sailor status: S with ID 2 at location (5, 1) is in trouble 2
+Sailor status: S with ID 3 at location (5, 1) is docked at Dock 1
+Port Status: P with ID 1 at location (1, 20) containing supplies 400
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 14
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: s 1 5 5
+Sailing 1 to (5, 5)
+S1: On my way
+Time: 14
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: s 2 10 10
+Sailing 2 to (10, 10)
+S2: On my way
+Time: 14
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: s 3 12 12.5
+Sailing 3 to (12, 12.5)
+S3: On my way
+Time: 14
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S1: I’m there!
+S2: I’m there!
+S3: I’m there!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (5, 5) is anchored. Has a size of: 20, cargo of: 0, hold of: 120, and health of: 25
+Sailor status: S with ID 2 at location (10, 10) is anchored. Has a size of: 20, cargo of: 0, hold of: 120, and health of: 25
+Sailor status: S with ID 3 at location (12, 12.5) is anchored. Has a size of: 20, cargo of: 0, hold of: 120, and health of: 25
+Port Status: P with ID 1 at location (1, 20) containing supplies 400
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 15
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . S3. . . . 
+  . . . . . S2. . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . S1. . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: d 1 1
+Sailor 1 sailing to Dock 1
+S1: Off to Dock
+Time: 15
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . S3. . . . 
+  . . . . . S2. . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . S1. . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: d 2 1
+Sailor 2 sailing to Dock 1
+S2: Off to Dock
+Time: 15
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . S3. . . . 
+  . . . . . S2. . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . S1. . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: d 3 1
+Sailor 3 sailing to Dock 1
+S3: Off to Dock
+Time: 15
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . S3. . . . 
+  . . . . . S2. . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . S1. . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: p 1 1
+Sailor 1 supplying at Port 1 and going to Port 1
+S1: Supplies here I come!
+Time: 15
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . S3. . . . 
+  . . . . . S2. . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . S1. . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: p 2 1
+Sailor 2 supplying at Port 1 and going to Port 1
+S2: Supplies here I come!
+Time: 15
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . S3. . . . 
+  . . . . . S2. . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . S1. . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: p 3 1
+Sailor 3 supplying at Port 1 and going to Port 1
+S3: Supplies here I come!
+Time: 15
+20P1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . S3. . . . 
+  . . . . . S2. . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . S1. . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S1: I’m there!
+S1: Starting to supply at a port
+S2: I’m there!
+S2: Starting to supply at a port
+S3: I’m there!
+S3: Starting to supply at a port
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (1, 20) is supplying at Port 1
+Sailor status: S with ID 2 at location (1, 20) is supplying at Port 1
+Sailor status: S with ID 3 at location (1, 20) is supplying at Port 1
+Port Status: P with ID 1 at location (1, 20) containing supplies 400
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 16
+20* . . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S1: My new cargo is 50
+S2: My new cargo is 50
+S3: My new cargo is 50
+S1: My new cargo is 100
+S2: My new cargo is 100
+S3: My new cargo is 100
+S1: My new cargo is 120
+S2: My new cargo is 120
+S3: This Port has no more supplies for me. Dropping anchor
+Port 1has been depleted of supplies
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (1, 20) is supplying at Port 1
+Sailor status: S with ID 2 at location (1, 20) is supplying at Port 1
+Sailor status: S with ID 3 at location (1, 20) is anchored. Has a size of: 20, cargo of: 100, hold of: 120, and health of: 25
+Port Status: p with ID 1 at location (1, 20) containing supplies 0
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 19
+20* . . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S1: My boat is filled up. Send me to a Dock to unload. Dropping anchor
+S2: My boat is filled up. Send me to a Dock to unload. Dropping anchor
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (1, 20) is anchored. Has a size of: 20, cargo of: 120, hold of: 120, and health of: 25
+Sailor status: S with ID 2 at location (1, 20) is anchored. Has a size of: 20, cargo of: 120, hold of: 120, and health of: 25
+Sailor status: S with ID 3 at location (1, 20) is anchored. Has a size of: 20, cargo of: 100, hold of: 120, and health of: 25
+Port Status: p with ID 1 at location (1, 20) containing supplies 0
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 20
+20* . . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (1, 20) is anchored. Has a size of: 20, cargo of: 120, hold of: 120, and health of: 25
+Sailor status: S with ID 2 at location (1, 20) is anchored. Has a size of: 20, cargo of: 120, hold of: 120, and health of: 25
+Sailor status: S with ID 3 at location (1, 20) is anchored. Has a size of: 20, cargo of: 100, hold of: 120, and health of: 25
+Port Status: p with ID 1 at location (1, 20) containing supplies 0
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 25
+20* . . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: d 1 1
+Sailor 1 sailing to Dock 1
+S1: Off to Dock
+Time: 25
+20* . . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: d 2 1
+Sailor 2 sailing to Dock 1
+S2: Off to Dock
+Time: 25
+20* . . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: d 3 1
+Sailor 3 sailing to Dock 1
+S3: Off to Dock
+Time: 25
+20* . . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S1: Just keep sailing...
+S2: Just keep sailing...
+S3: Just keep sailing...
+S1: Just keep sailing...
+S2: Just keep sailing...
+S3: I’m there!
+S3: Starting to unload at a dock
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (4.29617, 4.3432) is inbound to Dock: 1 with a speed of 8
+Sailor status: S with ID 2 at location (4.29617, 4.3432) is inbound to Dock: 1 with a speed of 8
+Sailor status: S with ID 3 at location (5, 1) is unloading at Dock 1
+Port Status: p with ID 1 at location (1, 20) containing supplies 0
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 27
+20p1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . * . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S1: I’m there!
+S1: Starting to unload at a dock
+S2: I’m there!
+S2: Starting to unload at a dock
+S3: I am unloading at the dock
+Dock Status: d with ID 1 at location (5, 1) has 10 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (5, 1) is unloading at Dock 1
+Sailor status: S with ID 2 at location (5, 1) is unloading at Dock 1
+Sailor status: S with ID 3 at location (5, 1) is docked at Dock 1
+Port Status: p with ID 1 at location (1, 20) containing supplies 0
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 28
+20p1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: h 1
+Sailor 1 hiding 1
+S1: Off to hide
+Time: 28
+20p1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: h 2
+Sailor 2 hiding 2
+S2: Off to hide
+Time: 28
+20p1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: h 3
+Sailor 3 hiding 3
+S3: Off to hide
+Time: 28
+20p1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+S1: I’m there!
+S2: I’m there!
+S3: I’m there!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (5, 1) is anchored (and hiding). Has a size of: 20, cargo of: 120, hold of: 120, and health of: 25
+Sailor status: S with ID 2 at location (6, 2) is anchored (and hiding). Has a size of: 20, cargo of: 120, hold of: 120, and health of: 25
+Sailor status: S with ID 3 at location (1, 8) is anchored (and hiding). Has a size of: 25, cargo of: 0, hold of: 140, and health of: 25
+Port Status: p with ID 1 at location (1, 20) containing supplies 0
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 29
+20p1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: r
+Advancing to next event or 5 ticks
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (5, 1) is anchored (and hiding). Has a size of: 20, cargo of: 120, hold of: 120, and health of: 25
+Sailor status: S with ID 2 at location (6, 2) is anchored (and hiding). Has a size of: 20, cargo of: 120, hold of: 120, and health of: 25
+Sailor status: S with ID 3 at location (1, 8) is anchored (and hiding). Has a size of: 25, cargo of: 0, hold of: 140, and health of: 25
+Port Status: p with ID 1 at location (1, 20) containing supplies 0
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 34
+20p1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: s 1 15 15
+Sailing 1 to (15, 15)
+S1: On my way
+Time: 34
+20p1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: s 2 15 0
+Sailing 2 to (15, 0)
+S2: On my way
+Time: 34
+20p1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: s 3 0 15
+Sailing 3 to (0, 15)
+S3: On my way
+Time: 34
+20p1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  . . . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 * . . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . * . . . . . . . P2
+  0   4   8   12  16  20  
+Enter command: g
+Advancing time one tick
+S1: Just keep sailing...
+S2: Just keep sailing...
+S3: I’m there!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (9.64991, 7.50987) Has a speed of: 8 and is heading to: (15, 15)
+Sailor status: S with ID 2 at location (13.8095, 0.264556) Has a speed of: 8 and is heading to: (15, 0)
+Sailor status: S with ID 3 at location (0, 15) is anchored. Has a size of: 25, cargo of: 0, hold of: 140, and health of: 25
+Port Status: p with ID 1 at location (1, 20) containing supplies 0
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 35
+20p1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  S3. . . . . . . . . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . S1. . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . S2. . . P2
+  0   4   8   12  16  20  
+Enter command: g
+Advancing time one tick
+S1: Just keep sailing...
+S2: I’m there!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (14.2998, 14.0197) Has a speed of: 8 and is heading to: (15, 15)
+Sailor status: S with ID 2 at location (15, 0) is anchored. Has a size of: 20, cargo of: 120, hold of: 120, and health of: 25
+Sailor status: S with ID 3 at location (0, 15) is anchored. Has a size of: 25, cargo of: 0, hold of: 140, and health of: 25
+Port Status: p with ID 1 at location (1, 20) containing supplies 0
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 36
+20p1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  S3. . . . . . S1. . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . S2. . P2
+  0   4   8   12  16  20  
+Enter command: g
+Advancing time one tick
+S1: I’m there!
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (15, 15) is anchored. Has a size of: 20, cargo of: 120, hold of: 120, and health of: 25
+Sailor status: S with ID 2 at location (15, 0) is anchored. Has a size of: 20, cargo of: 120, hold of: 120, and health of: 25
+Sailor status: S with ID 3 at location (0, 15) is anchored. Has a size of: 25, cargo of: 0, hold of: 140, and health of: 25
+Port Status: p with ID 1 at location (1, 20) containing supplies 0
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 37
+20p1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  S3. . . . . . S1. . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . S2. . P2
+  0   4   8   12  16  20  
+Enter command: g
+Advancing time one tick
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (15, 15) is anchored. Has a size of: 20, cargo of: 120, hold of: 120, and health of: 25
+Sailor status: S with ID 2 at location (15, 0) is anchored. Has a size of: 20, cargo of: 120, hold of: 120, and health of: 25
+Sailor status: S with ID 3 at location (0, 15) is anchored. Has a size of: 25, cargo of: 0, hold of: 140, and health of: 25
+Port Status: p with ID 1 at location (1, 20) containing supplies 0
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 38
+20p1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  S3. . . . . . S1. . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . S2. . P2
+  0   4   8   12  16  20  
+Enter command: g
+Advancing time one tick
+Dock Status: d with ID 1 at location (5, 1) has 30 berths
+Dock Status: d with ID 2 at location (6, 2) has 30 berths
+Dock Status: d with ID 3 at location (1, 8) has 30 berths
+Sailor status: S with ID 1 at location (15, 15) is anchored. Has a size of: 20, cargo of: 120, hold of: 120, and health of: 25
+Sailor status: S with ID 2 at location (15, 0) is anchored. Has a size of: 20, cargo of: 120, hold of: 120, and health of: 25
+Sailor status: S with ID 3 at location (0, 15) is anchored. Has a size of: 25, cargo of: 0, hold of: 140, and health of: 25
+Port Status: p with ID 1 at location (1, 20) containing supplies 0
+Port Status: P with ID 2 at location (20, 1) containing supplies 400
+Port Status: P with ID 3 at location (20, 20) containing supplies 400
+Port Status: P with ID 4 at location (7, 2) containing supplies 500
+Time: 39
+20p1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  S3. . . . . . S1. . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . S2. . P2
+  0   4   8   12  16  20  
+Enter command: q
+Terminating Program
+Time: 39
+20p1. . . . . . . . . P3
+  . . . . . . . . . . . 
+16. . . . . . . . . . . 
+  S3. . . . . . S1. . . 
+12. . . . . . . . . . . 
+  . . . . . . . . . . . 
+8 d3. . . . . . . . . . 
+  . . . . . . . . . . . 
+4 . . . . . . . . . . . 
+  . . . * . . . . . . . 
+0 . . d1. . . . S2. . P2
+  0   4   8   12  16  20  
+View destructed.
+Dock destructed.
+GameObject destructed
+Dock destructed.
+GameObject destructed
+Dock destructed.
+GameObject destructed
+Sailor destructed.
+GameObject destructed
+Sailor destructed.
+GameObject destructed
+Sailor destructed.
+GameObject destructed
+Port destructed.
+GameObject destructed
+Port destructed.
+GameObject destructed
+Port destructed.
+GameObject destructed
+Port destructed.
+GameObject destructed
+Model destructed

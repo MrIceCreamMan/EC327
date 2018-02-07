@@ -1,0 +1,63 @@
+************************
+SAMPLE RUNS
+************************
+------------Sample 1 Begin----------------
+Enter character: +
+Offset (enter 0 to convert case): 0
+New character: +
+------------Sample 1 End------------------
+------------Sample 2 Begin----------------
+Enter character: 9
+Offset (enter 0 to convert case): 0
+New character: 9
+------------Sample 2 End------------------
+------------Sample 3 Begin----------------
+Enter character: a
+Offset (enter 0 to convert case): 0
+New character: A
+------------Sample 3 End------------------
+------------Sample 4 Begin----------------
+Enter character: E
+Offset (enter 0 to convert case): 0
+New character: e
+------------Sample 4 End------------------
+------------Sample 5 Begin----------------
+Enter character: 9
+Offset (enter 0 to convert case): 5
+New character: >
+------------Sample 5 End------------------
+------------Sample 6 Begin----------------
+Enter character: 1
+Offset (enter 0 to convert case): 3
+New character: 4
+------------Sample 6 End------------------
+------------Sample 7 Begin----------------
+Enter character: h
+Offset (enter 0 to convert case): 8
+New character: p
+------------Sample 7 End------------------
+------------Sample 8 Begin----------------
+Enter character: a
+Offset (enter 0 to convert case): 26 
+New character: {
+------------Sample 8 End------------------
+------------Sample 9 Begin----------------
+Enter character: C
+Offset (enter 0 to convert case): 20
+New character: W
+------------Sample 9 End------------------
+------------Sample 10 Begin---------------
+Enter character: a
+Offset (enter 0 to convert case): 355
+Error. Out of range.
+------------Sample 10 End-----------------
+------------Sample 11 Begin---------------
+Enter character: 2
+Offset (enter 0 to convert case): 7808
+Error. Out of range.
+------------Sample 11 End-----------------
+------------Sample 12 Begin---------------
+Enter character: ?
+Offset (enter 0 to convert case): 3
+New character: B
+------------Sample 12 End-----------------

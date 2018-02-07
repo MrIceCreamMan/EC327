@@ -1,0 +1,33 @@
+Address         Machine Code                     Assembly        Comments
+
+31         1001 000000 001001 (Hex: 9009)        mov r0,9        ;ro holds 9
+
+32         1001 000001 001010 (Hex: 904a)        mov r1,10       ;r1 holds 10
+
+33         1001 000010 010100 (Hex: 9094)        mov r2, 20      ;r2 holds 20, program counter
+
+34         0001 000000 000000 (Hex: 1000)        loop: inc r0    ;increment loop begins
+
+35         0001 000000 000001 (Hex: 1001)        inc r1          ;increment r0,r1 by 1 every loop
+
+36         1011 000000 000001 (Hex: b001)        mov [r0],r1     ;save r1 to location r0
+
+37         1000 000001 000010 (Hex: 8042)        cmp r1,r2       ;check with counter r2
+
+38         0011 000000 100010 (Hex: 3022)        jne loop        ;when it's not done, jump back
+
+39         1100 000001 000000 (Hex: c040)        mov r1,[r0]     ;when it's done, load location ro(20) to r1
+
+40         0001 000000 000001 (Hex: 1001)        inc r1          
+
+41         0001 000000 000001 (Hex: 1001)        inc r1          ;increment r1 twice
+
+42         1011 000000 000001 (Hex: b001)        mov [r0],r1     ;save r1 to location r0(20)
+
+43         0000 000000 000000 (Hex: 0000)        halt            ;halt
+
+
+
+Simulator Hex:
+ 
+9009904a909410001001b00180423022c04010011001b0010000

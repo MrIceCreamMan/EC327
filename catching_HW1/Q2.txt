@@ -1,0 +1,66 @@
+Address         Machine Code                     Assembly               Comments
+
+31         1001 000000 000001 (Hex: 9001)        mov r0,1               ;Sample 1
+32         1001 000001 000011 (Hex: 9043)        mov r1,3               ;Sample 2
+33         1001 000010 000010 (Hex: 9082)        mov r2,2               ;Sample 3
+34         1001 000011 000010 (Hex: 90c2)        mov r3,2               ;Sample 4
+35         1001 000100 000001 (Hex: 9101)        mov r4,1               ;Sample 5
+36         1011 000000 000001 (Hex: b001)        mov [r0],r1            ;Sample 6
+37         0001 000000 000000 (Hex: 1000)        inc r0                 ;Sample 7
+38         1011 000000 000010 (Hex: b002)        mov [r0],r2            ;Sample 8
+39         0001 000000 000000 (Hex: 1000)        inc r0                 ;Sample 9
+40         1011 000000 000011 (Hex: b003)        mov [r0],r3            ;Sample 10
+41         0001 000000 000000 (Hex: 1000)        inc r0                 ;Sample 11
+42         1011 000000 000100 (Hex: b004)        mov [r0],r4            ;Sample 12
+43         1001 000000 000001 (Hex: 9001)        mov r0,1               ;r0 holds 1
+
+44         1100 000001 000000 (Hex: c040)        mov r1,[r0]            ;load value in location 1 'a' to r1
+
+45         0001 000000 000000 (Hex: 1000)        inc r0                 ;increment r0 by 1
+
+46         1100 000010 000000 (Hex: c080)        mov r2,[r0]            ;load value in location 2 'b' to r2
+
+47         0001 000000 000000 (Hex: 1000)        inc r0                 ;increment r0 by 1
+
+48         1100 000011 000000 (Hex: c0c0)        mov r3,[r0]            ;load value in location 3 'c' to r3
+
+49         0001 000000 000000 (Hex: 1000)        inc r0                 ;increment r0 by 1
+
+50         1100 000100 000000 (Hex: c100)        mov r4,[r0]            ;load value in location 4 'd' to r4
+
+51         1100 000101 000000 (Hex: c140)        mov r5,[r0]            ;load value in location 4 'd' to r5
+
+52         0110 000010 000011 (Hex: 6083)        sub r2,r3              ;r2=r2-r3 same as r2 holds 'b-c' in original equation
+
+53         1001 000011 000000 (Hex: 90c0)        mov r3,0               ;r3 holds 0
+
+54         1000 000010 000011 (Hex: 8083)        cmp r2,r3              ;check if 'b-c' is 0
+
+55         0100 000001 000000 (Hex: 4040)        je case_0              ;if true, jump to the third last line, which gives 0
+
+56         0001 000000 000011 (Hex: 1003)        inc r3                 ;increment r3 by 1
+
+57         1000 000010 000011 (Hex: 8083)        cmp r2,r3              ;check if 'b-c' is 1
+
+58         0100 000000 111111 (Hex: 403f)        je case_1              ;if true, jump to the forth last line, which gives 'd'
+59         0101 000100 000101 (Hex: 5105)        multiply: add r4,r5    ;if 'b-c' greater than 1, begin the multiply loop. add 'd' to 'd' and store in r4
+
+60         0001 000000 000011 (Hex: 1003)        inc r3                 ;increment r3 by 1
+
+61         1000 000010 000011 (Hex: 8083)        cmp r2,r3              ;check if r3 equals to 'b-c' which is stored in r2
+
+62         0011 000000 111101 (Hex: 303b)        jne multiply           ;if they are equal, end the multiply loop. if not, continue to add 'd' to 'n X d'
+
+63         0101 000001 000100 (Hex: 5044)        case_1: add r1,r4      ;sum 'a' and '(b-c)d' and store it in r1
+
+64         1001 000000 011110 (Hex: 901e)        case_0: mov r0,30      ;r0 holds 30
+
+65         1011 000000 000001 (Hex: b001)        mov [r0],r1            ;save r1 (the final result) to location r0 (30)
+
+66         0000 000000 000000 (Hex: 0000)        halt                   ;halt
+
+
+
+Simulator Hex:
+
+90019043908290c29101b0011000b0021000b0031000b0049001c0401000c0801000c0c01000c100c140608390c08083404010038083403f510510038083303b5044901eb0010000

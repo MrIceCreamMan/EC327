@@ -1,0 +1,42 @@
+------------Sample 1 Begin----------------
+Enter two positive integers:
+445632
+154564
+Hamming distance between 445632 and 154564 when numbers are in hex format is: 4
+------------Sample 1 End------------------
+------------Sample 2 Begin----------------
+Enter two positive integers:
+57560
+12158
+Hamming distance between 57560 and 12158 when numbers are in hex format is: 4
+------------Sample 2 End------------------
+------------Sample 3 Begin----------------
+Enter two positive integers:
+96055
+358279
+Hamming distance between 96055 and 358279 when numbers are in hex format is: 2
+------------Sample 3 End------------------
+------------Sample 4 Begin----------------
+Enter two positive integers:
+845287
+845286
+Hamming distance between 845287 and 845286 when numbers are in hex format is: 1
+------------Sample 4 End------------------
+------------Sample 5 Begin----------------
+Enter two positive integers:
+1245456
+1245456
+Hamming distance between 1245456 and 1245456 when numbers are in hex format is: 0
+------------Sample 5 End------------------
+------------Sample 6 Begin----------------
+Enter two positive integers:
+100
+148
+Hamming distance between 100 and 148 when numbers are in hex format is: 1
+------------Sample 6 End------------------
+------------Sample 7 Begin----------------
+Enter two positive integers:
+87534563
+125283299
+Hamming distance between 87534563 and 125283299 when numbers are in hex format is: 2
+------------Sample 7 End------------------

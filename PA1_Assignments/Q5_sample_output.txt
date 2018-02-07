@@ -1,0 +1,168 @@
+************************
+SAMPLE RUNS
+************************
+------------Sample 1 Begin----------------
+Enter your first guess: 100
+Enter your next guess: 90
+Colder
+Enter your next guess: 120
+Warmer
+Enter your next guess: 150
+Warmer
+Enter your next guess: 200
+Warmer
+Enter your next guess: 300
+Colder
+Enter your next guess: 250
+Warmer
+Enter your next guess: 220
+Warmer
+Enter your next guess: 200
+Colder
+Enter your next guess: 210
+Warmer
+Enter your next guess: 215
+Warmer
+Enter your next guess: 219
+Warmer
+Enter your next guess: 218
+Correct!  The number was 218!
+------------Sample 1 End------------------
+------------Sample 2 Begin----------------
+Enter your first guess: 100
+Enter your next guess: 90
+Warmer
+Enter your next guess: 50
+Warmer
+Enter your next guess: 30
+Warmer
+Enter your next guess: 20
+Colder
+Enter your next guess: 25
+Warmer
+Enter your next guess: 30
+Warmer
+Enter your next guess: 35
+Warmer
+Enter your next guess: 40
+Colder
+Enter your next guess: 36
+Warmer
+Enter your next guess: 37
+Colder
+Enter your next guess: 34
+Warmer
+Enter your next guess: 32
+No change
+Enter your next guess: 33
+Correct!  The number was 33!
+------------Sample 2 End------------------
+------------Sample 3 Begin----------------
+Enter your first guess: 100
+Enter your next guess: 90
+Colder
+Enter your next guess: 200
+Warmer
+Enter your next guess: 300
+Colder
+Enter your next guess: 250
+Warmer
+Enter your next guess: 220
+Warmer
+Enter your next guess: 210
+Warmer
+Enter your next guess: 200
+Warmer
+Enter your next guess: 190
+Warmer
+Enter your next guess: 150
+Warmer
+Enter your next guess: 140
+Colder
+Enter your next guess: 160
+Warmer
+Enter your next guess: 170
+Colder
+Enter your next guess: 165
+Warmer
+Enter your next guess: 162
+Warmer
+Enter your next guess: 163
+Colder
+Enter your next guess: 161
+Warmer
+Enter your next guess: 155
+Warmer
+Enter your next guess: 152
+Colder
+Enter your next guess: 154
+Correct!  The number was 154!
+------------Sample 3 End------------------
+------------Sample 4 Begin----------------
+Enter your first guess: 100
+Enter your next guess: 110
+Warmer
+Enter your next guess: 150
+Warmer
+Enter your next guess: 200
+Warmer
+Enter your next guess: 300
+Warmer
+Enter your next guess: 400
+Colder
+Enter your next guess: 250
+Colder
+Enter your next guess: 350
+Warmer
+Enter your next guess: 355
+Colder
+Enter your next guess: 320
+Warmer
+Enter your next guess: 310
+Colder
+Enter your next guess: 330
+Warmer
+Enter your next guess: 335
+Warmer
+Enter your next guess: 338
+Warmer
+Enter your next guess: 341
+Colder
+Enter your next guess: 340
+Warmer
+Enter your next guess: 339
+Warmer
+Enter your next guess: 338
+Warmer
+Enter your next guess: 337
+Correct!  The number was 337!
+------------Sample 4 End------------------
+------------Sample 5 Begin----------------
+Enter your first guess: 400
+Enter your next guess: 300
+Warmer
+Enter your next guess: 200
+Warmer
+Enter your next guess: 100
+Warmer
+Enter your next guess: 120
+Colder
+Enter your next guess: 90
+Warmer
+Enter your next guess: 50
+Warmer
+Enter your next guess: 30
+Warmer
+Enter your next guess: 20
+Warmer
+Enter your next guess: 10
+Warmer
+Enter your next guess: 1
+Colder
+Enter your next guess: 5
+Warmer
+Enter your next guess: 8
+Warmer
+Enter your next guess: 9
+Correct!  The number was 9!
+------------Sample 5 End------------------

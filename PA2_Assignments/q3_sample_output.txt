@@ -1,0 +1,53 @@
+====================SAMPLE OUTPUT 0 START =====================================
+Array size is: 4
+Mean is: 44.50
+StdDev is: 17.59
+Array values forward are: 42, 63, 56, 17
+Array values reverse are: 17, 56, 63, 42
+The largest array value is: 63
+The smallest array value is: 17
+====================SAMPLE OUTPUT 0 END =====================================
+
+
+====================SAMPLE OUTPUT 1 START =====================================
+Array size is: 10
+Mean is: 357.50
+StdDev is: 283.84
+Array values forward are: 658, 32, 205, 967, 172, 408, 44, 459, 134, 496
+Array values reverse are: 496, 134, 459, 44, 408, 172, 967, 205, 32, 658
+The largest array value is: 967
+The smallest array value is: 32
+====================SAMPLE OUTPUT 1 END =====================================
+
+
+====================SAMPLE OUTPUT 2 START =====================================
+Array size is: 10
+Mean is: 395.90
+StdDev is: 249.55
+Array values forward are: 728, 643, 155, 723, 12, 629, 152, 328, 297, 292
+Array values reverse are: 292, 297, 328, 152, 629, 12, 723, 155, 643, 728
+The largest array value is: 728
+The smallest array value is: 12
+====================SAMPLE OUTPUT 2 END =====================================
+
+
+====================SAMPLE OUTPUT 3 START =====================================
+Array size is: 20
+Mean is: 406.80
+StdDev is: 314.93
+Array values forward are: 385, 175, 41, 51, 960, 835, 510, 41, 171, 379, 177, 17, 244, 662, 214, 830, 906, 760, 603, 175
+Array values reverse are: 175, 603, 760, 906, 830, 214, 662, 244, 17, 177, 379, 171, 41, 510, 835, 960, 51, 41, 175, 385
+The largest array value is: 960
+The smallest array value is: 17
+====================SAMPLE OUTPUT 3 END =====================================
+
+
+====================SAMPLE OUTPUT 4 START =====================================
+Array size is: 0
+Mean is: None
+StdDev is: None
+Array values forward are: None
+Array values reverse are: None
+The largest array value is: None
+The smallest array value is: None
+====================SAMPLE OUTPUT 4 END =====================================

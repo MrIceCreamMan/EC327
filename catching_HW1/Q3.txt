@@ -1,0 +1,74 @@
+Address         Machine Code                     Assembly               Comments
+
+31         1001 000000 000001 (Hex: 9001)        mov r0,1               ;Sample 1
+32         1001 000001 000100 (Hex: 9044)        mov r1,4               ;Sample 2
+33         1001 000010 000011 (Hex: 9083)        mov r2,3               ;Sample 3
+34         1011 000000 000001 (Hex: b001)        mov [r0],r1            ;Sample 4
+35         0001 000000 000000 (Hex: 1000)        inc r0                 ;Sample 5
+36         1011 000000 000010 (Hex: b002)        mov [r0],r2            ;Sample 6
+37         1001 000000 000001 (Hex: 9001)        mov r0,1               ;r0 holds 1
+
+38         1100 000001 000000 (Hex: c040)        mov r1,[r0]            ;load value 'n' in location 1 to r1
+
+39         1100 000011 000000 (Hex: c0c0)        mov r3,[r0]            ;load value 'n' in location 1 to r3
+
+40         0001 000000 000000 (Hex: 1000)        inc r0                 ;increment r0 by 1
+
+41         1100 000010 000000 (Hex: c080)        mov r2,[r0]            ;load value 'm' in location 2 to r2
+
+42         1001 000000 000000 (Hex: 9000)        mov r0,0               ;r0 holds 0
+
+43         1000 000000 000010 (Hex: 8002)        cmp r0,r2              ;check if 'm' is 0
+
+44         0100 000001 000000 (Hex: 4040)        je case_m_0            ;if true, jump to case in which 'm=0'
+
+45         1000 000000 000001 (Hex: 8001)        cmp r0,r1              ;check if 'n' is 0
+
+46         0100 000000 111101 (Hex: 403d)        je end                 ;if true, jump to label 'end'
+
+47         0001 000000 000000 (Hex: 1000)        inc r0                 ;increment r0 by 1
+
+48         1000 000000 000010 (Hex: 8002)        cmp r0,r2              ;check if 'm' is 1
+
+49         0100 000000 111101 (Hex: 403d)        je end                 ;if true, jump to label 'end'
+
+50         1000 000000 000001 (Hex: 8001)        cmp r0,r1              ;check if 'n' is 1
+
+51         0100 000000 111101 (Hex: 403d)        je end                 ;if true, jump to label 'end'
+
+52         0001 000000 000000 (Hex: 1000)        power_loop: inc r0     ;power loop begins and increment r0 by 1
+
+53         1010 000100 000011 (Hex: a103)        mov r4,r3              ;copy value in r4 to r3
+
+54         1001 000101 000001 (Hex: 9141)        mov r5,1               ;r5 holds 1
+
+55         0001 000000 000101 (Hex: 1005)        add_loop: inc r5       ;add loop begins and increment r5 by 1
+
+56         0101 000011 000100 (Hex: 50c4)        add r3,r4              ;add the value in r4 to r3
+
+57         1000 000101 000001 (Hex: 8141)        cmp r5,r1              ;check if the multiply ends
+
+58         0011 000000 110111 (Hex: 3037)        jne add_loop           ;if not, continue adding until multiply is done
+
+59         1000 000000 000010 (Hex: 8002)        cmp r0,r2              ;check if the power ends
+
+60         0011 000000 110100 (Hex: 3034)        jne power_loop         ;if not, continue multiply until power is done
+
+61         1001 000000 011110 (Hex: 901e)        end: mov r0,30         ;the end of computing, and r0 holds 30
+
+62         1011 000000 000011 (Hex: b003)        mov [r0],r3            ;save the final answer in r3 to location 30
+
+63         0010 000001 000010 (Hex: 2042)        jmp force_halt         ;The simulator has a bug. I have to halt this way
+
+64         1001 000011 000001 (Hex: 90c1)        case_m_0: mov r3,1     ;if 'm' is 0, the answer should be 1
+
+64         0010 000000 111101 (Hex: 203d)        jmp end                ;jump to the label 'end'
+
+65         0000 000000 000000 (Hex: 0000)        force_halt: halt       ;finally we halt safe and sound. sorry to do this, but BUGGY SIMULATOR!
+
+
+
+Simulator Hex:
+
+
+900190449083b0011000b0029001c040c0c01000c0809000800240408001403d10008002403d8001403d1000a1039141100550c48141303780023034901eb003204290c1203d0000

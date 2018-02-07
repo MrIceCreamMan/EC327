@@ -1,0 +1,38 @@
+Address         Machine Code                     Assembly               Comments
+31         1001 000000 011000 (Hex: 9018)        mov r0,24              ;Sample 1
+32         1001 000001 110111 (Hex: 9077)        mov r1,55              ;Sample 2
+33         1001 000010 001010 (Hex: 908a)        mov r2,10              ;Sample 3
+34         1011 000010 000001 (Hex: b081)        mov [r2],r1            ;Sample 4
+35         1001 000010 001001 (Hex: 9089)        mov r2,9               ;Sample 5
+
+36         1011 000010 000000 (Hex: b080)        mov [r2],r0            ;Sample 6
+37         1001 000000 001001 (Hex: 9009)        mov r0,9               ;r0 holds 9
+
+38         1001 000001 000001 (Hex: 9041)        mov r1,1               ;r1 holds 1
+
+39         0001 000000 000000 (Hex: 1000)        loop: inc r0           ;loop begins: increment r0 by 1
+
+40         1100 000010 000000 (Hex: c080)        mov r2,[r0]            ;load location r0 to r2
+
+41         0110 000000 000001 (Hex: 6001)        sub r0,r1              ;decrement r0 by 1
+
+42         1100 000011 000000 (Hex: c0c0)        mov r3,[r0]            ;load location r0 to r3
+
+43         0101 000010 000011 (Hex: 5083)        add r2,r3              ;add r2 and r3 and store in r2
+
+44         0110 000000 000001 (Hex: 6001)        sub r0,r1              ;decrement r0 by 1
+
+45         1011 000000 000010 (Hex: b002)        mov [r0],r2            ;save the answer in r2 to location r0
+
+46         1000 000000 000001 (Hex: 8001)        cmp r0,r1              ;check if r0 is 1 now
+
+47         0011 000000 101000 (Hex: 3028)        jne loop               ;if not, jump back to loop
+
+48         0000 000000 000000 (Hex: 0000)        halt                   ;halt
+
+
+
+Simulator Hex:
+
+
+90189077908ab0819089b080900990411000c0806001c0c050836001b002800130270000
